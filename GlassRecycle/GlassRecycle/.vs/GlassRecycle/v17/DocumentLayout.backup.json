@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\glassrecycle\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|c:\\users\\rc_student_lab\\downloads\\glassrecycle\\glassrecycle\\glassrecycle\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\signin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|c:\\users\\rc_student_lab\\downloads\\glassrecycle\\glassrecycle\\glassrecycle\\shop.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\shop.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\glassrecycle\\imagehandler.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\imagehandler.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\glassrecycle\\shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\shop.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\glassrecycle\\adminportal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\adminportal.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\glassrecycle\\adminportal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{1F0E9F03-2FCF-4D94-84B9-EAC0826B7590}|GlassRecycle\\GlassRecycle.csproj|solutionrelative:glassrecycle\\adminportal.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Shop.aspx",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Shop.aspx",
+              "RelativeDocumentMoniker": "GlassRecycle\\Shop.aspx",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Shop.aspx",
+              "RelativeToolTip": "GlassRecycle\\Shop.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-13T10:56:34.228Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1944123010:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignIn.aspx",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\SignIn.aspx",
+              "RelativeDocumentMoniker": "GlassRecycle\\SignIn.aspx",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\SignIn.aspx",
+              "RelativeToolTip": "GlassRecycle\\SignIn.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-14T10:32:48.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.Master",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Site.Master",
+              "RelativeDocumentMoniker": "GlassRecycle\\Site.Master",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Site.Master",
+              "RelativeToolTip": "GlassRecycle\\Site.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-13T18:05:51.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageHandler.ashx.cs",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\ImageHandler.ashx.cs",
+              "RelativeDocumentMoniker": "GlassRecycle\\ImageHandler.ashx.cs",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\ImageHandler.ashx.cs",
+              "RelativeToolTip": "GlassRecycle\\ImageHandler.ashx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:53:41.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Shop.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Shop.aspx.cs",
+              "RelativeDocumentMoniker": "GlassRecycle\\Shop.aspx.cs",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\Shop.aspx.cs",
+              "RelativeToolTip": "GlassRecycle\\Shop.aspx.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwL8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:13:05.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminPortal.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\AdminPortal.aspx.cs",
+              "RelativeDocumentMoniker": "GlassRecycle\\AdminPortal.aspx.cs",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\AdminPortal.aspx.cs",
+              "RelativeToolTip": "GlassRecycle\\AdminPortal.aspx.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwIQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T11:09:31.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminPortal.aspx",
+              "DocumentMoniker": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\AdminPortal.aspx",
+              "RelativeDocumentMoniker": "GlassRecycle\\AdminPortal.aspx",
+              "ToolTip": "C:\\Users\\RC_Student_Lab\\Downloads\\GlassRecycle\\GlassRecycle\\GlassRecycle\\AdminPortal.aspx",
+              "RelativeToolTip": "GlassRecycle\\AdminPortal.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-11-13T10:55:09.847Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
