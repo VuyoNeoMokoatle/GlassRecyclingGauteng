@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Buyalot.RegisterPage"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             Shell.FlyoutBehavior="Disabled">
+
+    <Grid>
+        <Image Source="background.png"
+               Aspect="Fill"
+               Opacity="1"
+               ZIndex="0" />
+
+        <Grid RowDefinitions="0.4*,*" ZIndex="2">
+            <Border Grid.Row="1"
+                    StrokeShape="RoundRectangle 25 25 0 0"
+                    BackgroundColor="White"
+                    StrokeThickness="0">
+
+                <ScrollView>
+                    <VerticalStackLayout Padding="20" Spacing="15">
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="firstNameEntry" TextColor="Black" Placeholder="First Name"/>
+                        </Border>
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="lastNameEntry" Placeholder="Last Name" TextColor="Black"/>
+                        </Border>
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="emailEntry" Placeholder="Email" TextColor="Black"/>
+                        </Border>
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="passwordEntry" Placeholder="Password" TextColor="Black" IsPassword="True"/>
+                        </Border>
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="mobileEntry"
+                                   Placeholder="Mobile Number"
+                                   TextColor="Black"
+                                   Keyboard="Telephone"
+                                   TextChanged="OnMobileTextChanged"/>
+                        </Border>
+
+                        <Border StrokeShape="RoundRectangle 12.5" StrokeThickness="2" Stroke="#2B0B98">
+                            <Entry x:Name="addressEntry" Placeholder="Address" TextColor="Black"/>
+                        </Border>
+
+                        <Button x:Name="registerButton"
+                                Text="Register"
+                                Clicked="OnRegisterClicked"
+                                CornerRadius="12"
+                                TextColor="White"
+                                BackgroundColor="#2B0B98"
+                                FontAttributes="Bold"
+                                HeightRequest="48" />
+
+                        <ActivityIndicator x:Name="loadingIndicator"
+                                           IsRunning="False"
+                                           IsVisible="False"
+                                           Color="#2B0B98"
+                                           HorizontalOptions="Center"
+                                           HeightRequest="30"/>
+
+                        <Button Text="Already have an account? Login"
+                                Clicked="OnGoToLoginClicked"
+                                CornerRadius="12"
+                                BackgroundColor="#FFA500"
+                                TextColor="White"
+                                FontAttributes="Bold"/>
+                    </VerticalStackLayout>
+                </ScrollView>
+            </Border>
+        </Grid>
+    </Grid>
+</ContentPage>

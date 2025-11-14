@@ -1,0 +1,12 @@
+<Shell
+    x:Class="Buyalot.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Buyalot"
+    Shell.FlyoutBehavior="Disabled"
+    Title="Buyalot">
+
+    <ShellContent Route="LoginPage" ContentTemplate="{DataTemplate local:LoginPage}" />
+    <ShellContent Route="MainPage" ContentTemplate="{DataTemplate local:Main}" />
+
+</Shell>

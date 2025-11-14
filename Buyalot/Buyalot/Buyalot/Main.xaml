@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Buyalot.Main"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             Shell.FlyoutBehavior="Disabled"
+             BackgroundColor="#2B0B98">
+
+    <Grid RowDefinitions="Auto,*">
+    
+        <Grid Padding="20"
+              ColumnDefinitions="Auto,*,Auto"
+              VerticalOptions="Start"
+              HorizontalOptions="Fill">
+
+            <Frame HeightRequest="60"
+                   WidthRequest="60"
+                   CornerRadius="30"
+                   Padding="0"
+                   IsClippedToBounds="True"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"
+                   Margin="0,0,10,0"
+                   BackgroundColor="White">
+                <Image Source="dotnet_bot.png"
+                       Aspect="AspectFill">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnProfileImageTapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </Frame>
+
+
+            <Grid Grid.Column="1"
+                RowDefinitions="*,*"
+                VerticalOptions="Center">
+                <Label Text="{Binding UserFullName}"
+               FontSize="18"
+               FontAttributes="Bold"
+               TextColor="White"
+               HorizontalTextAlignment="Start" />
+                <Label Text="Welcome Back!"
+               FontSize="14" Grid.Row="1"
+               TextColor="#E0E0E0"
+               HorizontalTextAlignment="Start" />
+            </Grid>
+
+            <Grid Grid.Column="2"
+                  HorizontalOptions="End"
+                  VerticalOptions="Center">
+
+
+                <ImageButton Source="cart.png"
+                                 HeightRequest="35"
+                                 WidthRequest="35"
+                                 BackgroundColor="Transparent"
+                                 Command="{Binding ViewCartCommand}" />
+
+                <Border BackgroundColor="White"
+                        HeightRequest="18"
+                        WidthRequest="18"
+                        StrokeShape="RoundRectangle 9"
+                        HorizontalOptions="End"
+                        VerticalOptions="Start"
+                        TranslationX="10"
+                        TranslationY="-5"
+                        IsVisible="{Binding IsCartVisible}">
+                    <Label Text="{Binding CartCount}"
+               FontSize="10"
+               TextColor="Blue"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontAttributes="Bold"/>
+                </Border>
+
+            </Grid>
+
+        </Grid>
+
+        <Border Grid.Row="1" 
+                StrokeShape="RoundRectangle 0"
+                BackgroundColor="White"
+                StrokeThickness="0"
+                Shadow="10,5,5,Black">
+
+            <Grid Padding="20" RowSpacing="30">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="0.4*"/>
+                    <RowDefinition Height="0.2*"/>
+                </Grid.RowDefinitions>
+
+
+                <Border StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0" HorizontalOptions="FillAndExpand"
+                        Shadow="5,2,3,#83a4f3">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#83a4f3" Offset="0.0"/>
+                            <GradientStop Color="Navy" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Grid>
+                        <Button Text="Shop Now"
+                                Command="{Binding AddProductCommand}"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                BackgroundColor="Transparent"
+                                ImageSource="iconsplus.png"      
+                                ContentLayout="Left,10"/>
+
+                    </Grid>
+                </Border>
+
+
+                <Border Grid.Row="1" StrokeShape="RoundRectangle 20" StrokeThickness="0" HorizontalOptions="FillAndExpand" Shadow="5,2,3,#f7971e">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#f7971e" Offset="0.0"/>
+                            <GradientStop Color="#ffd200" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Grid Margin="0" RowDefinitions="*,2*" Padding="10" VerticalOptions="Center">
+
+                        <StackLayout Orientation="Vertical" VerticalOptions="Center" Spacing="5">
+                            <Label Text="BLACK FRIDAY!! November SALE !! "
+                                    FontSize="20"
+                                    FontAttributes="Bold"
+                                    TextColor="LightYellow" HorizontalTextAlignment="Center"/>
+                            <Label Text="Limited time! Grab your Summer style now."
+                                    FontSize="10"
+                                    TextColor="White"  HorizontalTextAlignment="Center"/>
+
+                        </StackLayout>
+
+                        <Grid Grid.Row="1">
+                            <CarouselView x:Name="imageCarousel" IndicatorView="indicatorView" >
+                                <CarouselView.ItemsSource>
+                                    <x:Array Type="{x:Type ImageSource}">
+                                        <FileImageSource File="glasses1.jpg"/>
+                                        <FileImageSource File="glasses2.jpg"/>
+                                        <FileImageSource File="glasses3.jpg"/>
+                                    </x:Array>
+                                </CarouselView.ItemsSource>
+
+                                <CarouselView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding .}" 
+                           Aspect="AspectFit" 
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                                    </DataTemplate>
+                                </CarouselView.ItemTemplate>
+                            </CarouselView>
+
+                            <IndicatorView x:Name="indicatorView" 
+                       HorizontalOptions="Center" 
+                       VerticalOptions="End"/>
+                        </Grid>
+
+                    </Grid>
+
+                </Border>
+
+
+
+                <Border Grid.Row="2"
+        StrokeShape="RoundRectangle 20"
+        StrokeThickness="0"
+        Shadow="5,2,3,#26658c">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="Navy" Offset="0.0"/>
+                            <GradientStop Color="#83a4f3" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Grid>
+                     
+                    
+                        <Frame VerticalOptions="End"
+                               HorizontalOptions="End"
+                               Padding="5"
+                               Margin="10" WidthRequest="25" HeightRequest="25"
+                               BackgroundColor="#f7971e"
+                               CornerRadius="25"
+                               HasShadow="False"
+                               IsVisible="{Binding TotalAvailable, Converter={StaticResource GreaterThanZeroConverter}}">
+                            <Label Text="{Binding TotalAvailable}"
+                   TextColor="White"
+                   FontSize="12"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" />
+                        </Frame>
+                    </Grid>
+                </Border>
+
+                <Border  Grid.Row="3"
+                        StrokeShape="RoundRectangle 20"
+                        StrokeThickness="0"
+                        Shadow="5,2,3,#cb2d3e">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#cb2d3e" Offset="0.0"/>
+                            <GradientStop Color="red" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Grid>
+                        <Button Text="Logout"
+                                Command="{Binding LogoutCommand}"
+                                TextColor="White"
+                                FontAttributes="Bold"
+                                BackgroundColor="Transparent"/>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</ContentPage>

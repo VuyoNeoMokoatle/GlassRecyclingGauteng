@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Buyalot.LoginPage"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <Grid>
+        <Image Source="background.png"
+               Aspect="Fill"
+               Opacity="1"
+               ZIndex="0" />
+
+        <Grid RowDefinitions="0.5*,*" ZIndex="2">
+            <Border Grid.Row="1"
+                    StrokeShape="RoundRectangle 25 25 0 0"
+                    BackgroundColor="White"
+                    StrokeThickness="0">
+                <VerticalStackLayout Padding="20" Spacing="15">
+
+                    <Image Source="buyalot.png"
+                           HeightRequest="120"
+                           HorizontalOptions="Center" />
+
+                    <Border StrokeShape="RoundRectangle 12.5"
+                            StrokeThickness="2"
+                            Stroke="#2B0B98">
+                        <Entry x:Name="emailEntry"
+                               Placeholder="Email"
+                               Keyboard="Email"
+                               TextColor="Black" />
+                    </Border>
+
+                    <Border StrokeShape="RoundRectangle 12.5"
+                            StrokeThickness="2"
+                            Stroke="#2B0B98">
+                        <Grid>
+                            <Entry x:Name="passwordEntry"
+                                   Placeholder="Password"
+                                   IsPassword="True"
+                                   TextColor="Black" />
+
+                            <Button x:Name="togglePasswordButton"
+                                    Text="Show"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Center"
+                                    Clicked="OnTogglePasswordClicked"
+                                    BackgroundColor="#2B0B98"
+                                    TextColor="White"
+                                    FontAttributes="Bold"
+                                    Padding="10,0"/>
+                        </Grid>
+                    </Border>
+
+                    <Button x:Name="loginButton"
+                            Text="Login"
+                            Clicked="OnLoginClicked"
+                            CornerRadius="12"
+                            BackgroundColor="#2B0B98"
+                            TextColor="White"
+                            FontAttributes="Bold"
+                            HeightRequest="48" />
+
+                    <ActivityIndicator x:Name="loadingIndicator"
+                                       IsRunning="False"
+                                       IsVisible="False"
+                                       Color="#2B0B98"
+                                       HorizontalOptions="Center"
+                                       HeightRequest="30"/>
+
+                    <Button Text="Don’t have an account? Register"
+                            CornerRadius="12"
+                            Clicked="OnGoToRegisterClicked"
+                            BackgroundColor="#FFA500"
+                            TextColor="White" />
+
+                </VerticalStackLayout>
+            </Border>
+        </Grid>
+    </Grid>
+</ContentPage>
